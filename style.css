@@ -1,0 +1,31 @@
+body {
+  background: #fff3e0;
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+.toyhead {
+
+  color: white;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.toyhead h1 {font-size: 32px; margin: 0;}
+.toyhead p {color: #ffcc80; font-size: 16px; margin: 5px 0 0 0;}
+.toycontainer {
+  background: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+
+}
+.toyleft img {width: 200px; height: 200px;}
+.toyright h3 {color: #e65100; font-size: 28px; margin: 0;}
+.toyright p {color: #bf360c; font-size: 16px;}
+.toyright .price {font-weight: bold; font-size: 24px; color: #e65100;}
+.toyright button {padding: 10px 35px; background: #e65100; color: white; border: none; border-radius: 30px; font-size: 18px; font-weight: bold; margin-top: 10px;}
+.toyright button:hover {background: #ffd700; color: #e65100;}
+.toyfoot {text-align: center; color: #e65100; padding: 20px; margin-top: 30px; font-size: 18px;}
